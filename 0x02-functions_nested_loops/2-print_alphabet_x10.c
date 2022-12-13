@@ -6,7 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
-	chat ch;
+	char ch;
 	int i;
 
 	i = 0;
