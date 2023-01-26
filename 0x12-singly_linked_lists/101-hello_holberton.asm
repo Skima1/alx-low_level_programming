@@ -1,0 +1,1 @@
+; Declare needed C  functions
