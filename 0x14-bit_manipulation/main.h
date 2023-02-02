@@ -26,6 +26,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
 int get_endianness(void);
 
+int _atoi(const char *s);
+
 
 
 #endif
